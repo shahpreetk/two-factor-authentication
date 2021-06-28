@@ -31,12 +31,17 @@ const Dashboard = () => {
   }, []);
   return (
     <>
-      <div className="container m-6 p-6">
+      <div className="container p-6">
         <div className="bg-white">
           <div className="xl:w-full bg-amber-200 border-b border-gray-300 dark:border-gray-700 py-5">
             <div className="flex items-center w-11/12 mx-auto">
-              <p className="text-lg font-mono text-gray-800 dark:text-gray-100 font-bold">
-                Your Secret Key
+                <p className="text-lg font-mono text-gray-800 dark:text-gray-100 font-bold">
+                  Your Secret Key
+                </p>
+            </div>
+            <div className="flex items-center w-11/12 mx-auto">
+            <p className="text-md text-gray-800 dark:text-gray-100">
+                Ssshhhh... Don't tell this to anyone! Copy it and keep it Safe! You will need it for logging in!
               </p>
             </div>
           </div>
