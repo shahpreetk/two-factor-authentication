@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      Hello World
-    </div>
-  );
+  return <div className="App">Two Factor Authentication</div>;
 }
 
 export default App;
