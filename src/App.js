@@ -10,7 +10,7 @@ const Signup = lazy(() => import("./pages/Signup"));
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Key = lazy(() => import("./pages/Key"));
 
-axios.defaults.baseURL = "http://localhost:3010";
+axios.defaults.baseURL = "https://two-factor-auth-backend.herokuapp.com/";
 
 if (localStorage.token) {
   setAuthToken(localStorage.token);
