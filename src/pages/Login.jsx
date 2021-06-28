@@ -184,7 +184,7 @@ export default function Login() {
                 {/* Signup Button */}
                 <Link to={ROUTES.SIGNUP}>
                   <button
-                    className="btn text-sm bg-gray-700 focus:outline-none text-gray-100 dark:text-gray-400 border border-gray-300 dark:border-gray-500 py-2 px-6 mr-4 rounded hover:bg-gray-600 transition duration-150 ease-in-out"
+                    className="btn text-sm bg-purple-700 focus:outline-none text-gray-100 dark:text-gray-400 border border-gray-300 dark:border-gray-500 py-2 px-6 mr-4 rounded hover:bg-gray-600 transition duration-150 ease-in-out"
                     type="button"
                   >
                     Don't have an account? Signup
