@@ -46,9 +46,9 @@ export default function Login() {
             className="container my-9 mx-auto bg-white shadow rounded"
           >
             <div>
-              <div className="xl:w-full bg-gray-50 border-b border-gray-300 dark:border-gray-700 py-5">
+              <div className="xl:w-full bg-amber-50 border-b border-amber-300 dark:border-amber-700 py-5">
                 <div className="flex items-center w-11/12 mx-auto">
-                  <p className="text-lg text-gray-800 dark:text-gray-100 font-bold">
+                  <p className="text-2xl font-mono text-gray-800 dark:text-gray-100 font-bold">
                     Login
                   </p>
                 </div>
@@ -180,11 +180,11 @@ export default function Login() {
                   </div>
                 </div>
               </div>
-              <div className="w-full py-4 sm:px-12 px-4 bg-gray-100 dark:bg-gray-700 mt-6 flex justify-end rounded-bl rounded-br">
+              <div className="w-full py-4 sm:px-12 px-4 bg-amber-300 dark:bg-amber-700 mt-6 flex justify-end rounded-bl rounded-br">
                 {/* Signup Button */}
                 <Link to={ROUTES.SIGNUP}>
                   <button
-                    className="btn text-sm focus:outline-none text-gray-600 dark:text-gray-400 border border-gray-300 dark:border-gray-500 py-2 px-6 mr-4 rounded hover:bg-gray-200 transition duration-150 ease-in-out"
+                    className="btn text-sm bg-gray-700 focus:outline-none text-gray-100 dark:text-gray-400 border border-gray-300 dark:border-gray-500 py-2 px-6 mr-4 rounded hover:bg-gray-600 transition duration-150 ease-in-out"
                     type="button"
                   >
                     Don't have an account? Signup
