@@ -12,7 +12,7 @@ const Sorting = () => {
   const sortNumbers = (e) => {
     e.preventDefault();
     const numberArray = numbers.split`,`.map((arr) => +arr);
-    const newArray = numberArray.sort();
+    const newArray = numberArray.sort((a, b) => a - b);
     setSorted(newArray);
     e.target.reset();
     setNumbers("");
