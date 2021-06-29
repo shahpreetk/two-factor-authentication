@@ -7,6 +7,8 @@ import setAuthToken from "./utils/setAuthToken";
 import axios from "axios";
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
+const Sorting = lazy(() => import("./pages/Sorting"));
+const EducationalProject = lazy(() => import("./pages/EducationalProject"));
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Key = lazy(() => import("./pages/Key"));
 
@@ -39,6 +41,12 @@ function App() {
           <Switch>
             <Route path={ROUTES.LOGIN} component={Login} exact />
             <Route path={ROUTES.SIGNUP} component={Signup} exact />
+            <Route path={ROUTES.SORTING} component={Sorting} exact />
+            <Route
+              path={ROUTES.EDUCATIONAL_PROJECT}
+              component={EducationalProject}
+              exact
+            />
             <PrivateRoute path={ROUTES.DASHBOARD} component={Dashboard} exact />
             <PrivateRoute path={ROUTES.KEY} component={Key} exact />
           </Switch>
