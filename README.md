@@ -1,4 +1,4 @@
-# MLH INIT
+# MLH INIT 🦈
 
 ### Find the challenges at: https://init.mlh.io/
 ___
