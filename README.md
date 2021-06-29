@@ -4,6 +4,13 @@
 
 ---
 
-## **Day 1:** Two Factor Authentication - https://devpost.com/software/two-factor-authentication-using-mern || https://mlh-init-pu.netlify.app/login
+### **Day 1:** 
 
-**Day 2:** **[WIP]**
+Two Factor Authentication - https://devpost.com/software/two-factor-authentication-using-mern || https://mlh-init-pu.netlify.app/login
+___
+
+### **Day 2:** 
+
+Educational Project - https://devpost.com/software/educational-project-j0az5f || https://mlh-init-pu.netlify.app/educational-project
+
+Sorting Project - https://devpost.com/software/code-to-sort-a-list-4otzi0 || https://mlh-init-pu.netlify.app/sorting
