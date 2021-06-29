@@ -1,3 +1,4 @@
+// @ts-check
 import { GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 const features = [

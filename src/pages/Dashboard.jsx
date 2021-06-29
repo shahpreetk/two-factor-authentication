@@ -1,4 +1,5 @@
-import React, { useEffect, useContext } from "react";
+// @ts-check
+import { useEffect, useContext } from "react";
 import AuthContext from "../context/auth/authContext";
 
 const Dashboard = () => {

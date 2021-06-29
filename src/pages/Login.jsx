@@ -1,5 +1,5 @@
 // @ts-check
-import React, { useState, useEffect, useRef, useContext } from "react";
+import { useState, useEffect, useRef, useContext } from "react";
 import { useHistory, Link } from "react-router-dom";
 import AuthContext from "../context/auth/authContext";
 import * as ROUTES from "../constants/routes";
