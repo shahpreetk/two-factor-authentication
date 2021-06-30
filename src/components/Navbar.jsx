@@ -66,6 +66,14 @@ export default function Example() {
                 >
                   2 APIs
                 </a>
+                <a
+                  href="https://youtu.be/dQw4w9WgXcQ"
+                  target="_blank"
+                  className="text-base font-medium text-gray-500 hover:text-gray-900"
+                  rel="noreferrer"
+                >
+                  Famous Painting
+                </a>
               </Popover.Group>
               <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                 {!isAuthenticated ? (
