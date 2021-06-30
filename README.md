@@ -16,6 +16,8 @@ Educational Project - https://devpost.com/software/educational-project-j0az5f ||
 
 Sorting Project - https://devpost.com/software/code-to-sort-a-list-4otzi0 || https://mlh-init-pu.netlify.app/sorting
 
+---
+
 ### **Day 3:**
 
 Animation - https://mlh-init-pu.netlify.app/animation
