@@ -5,6 +5,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import AuthState from "./context/auth/AuthState";
 import setAuthToken from "./utils/setAuthToken";
 import axios from "axios";
+import Navbar from "./components/Navbar";
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
 const Sorting = lazy(() => import("./pages/Sorting"));
@@ -23,6 +24,7 @@ function App() {
   return (
     <AuthState>
       <Router>
+        <Navbar />
         <Suspense
           fallback={
             <section>

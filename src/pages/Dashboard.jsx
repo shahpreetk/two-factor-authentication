@@ -27,7 +27,10 @@ const Dashboard = () => {
                 BLAHAJ is not just a shark plushie. It is a way of living.
               </p>
               <p className="mt-3 font-mono font-bold text-amber-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              BLAHAJ continues to amass more and more followers everyday, while Ryan Swift lives in denial of it's power. This cult-slash-club has become widely known, making appearances at different events across the globe.
+                BLAHAJ continues to amass more and more followers everyday,
+                while Ryan Swift lives in denial of it's power. This
+                cult-slash-club has become widely known, making appearances at
+                different events across the globe.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 {/* <div className="rounded-md shadow">
@@ -61,7 +64,11 @@ const Dashboard = () => {
           </main>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://sadanduseless.b-cdn.net/wp-content/uploads/2018/10/ikea-shark6.jpg" alt="Plushie" />
+          <img
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-auto lg:mt-24"
+            src="https://sadanduseless.b-cdn.net/wp-content/uploads/2018/10/ikea-shark6.jpg"
+            alt="Plushie"
+          />
         </div>
         {/* <div className="m-5 py-5">
           <button
