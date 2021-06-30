@@ -26,7 +26,7 @@ export default function Signup() {
   };
 
   useEffect(() => {
-    document.title = "Signup";
+    document.title = "Signup | MLH INIT";
 
     if (isAuthenticated) {
       history.push(ROUTES.KEY);

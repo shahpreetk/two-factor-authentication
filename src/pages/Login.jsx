@@ -26,7 +26,7 @@ export default function Login() {
   };
 
   useEffect(() => {
-    document.title = "Login";
+    document.title = "Login | MLH INIT";
     if (isAuthenticated) {
       history.push(ROUTES.DASHBOARD);
     }

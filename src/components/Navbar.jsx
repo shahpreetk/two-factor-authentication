@@ -15,7 +15,7 @@ export default function Example() {
   const { logout, isAuthenticated } = authContext;
 
   useEffect(() => {
-    document.title = "Two Factor Authentication";
+    document.title = "MLH INIT Challenges";
     document.head.lang = "en";
     authContext.loadUser();
     // eslint-disable-next-line
@@ -59,8 +59,10 @@ export default function Example() {
                   Animation
                 </Link>
                 <a
-                  href="/"
+                  href="https://mlh-init-weather.herokuapp.com/"
+                  target="_blank"
                   className="text-base font-medium text-gray-500 hover:text-gray-900"
+                  rel="noreferrer"
                 >
                   2 APIs
                 </a>
@@ -151,8 +153,10 @@ export default function Example() {
                       Animation
                     </Link>
                     <a
-                      href="/"
+                      href="https://mlh-init-weather.herokuapp.com/"
+                      target="_blank"
                       className="text-base font-medium text-gray-500 hover:text-gray-900"
+                      rel="noreferrer"
                     >
                       2 APIs
                     </a>

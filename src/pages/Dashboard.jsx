@@ -7,7 +7,7 @@ const Dashboard = () => {
   const { logout } = authContext;
 
   useEffect(() => {
-    document.title = "Two Factor Authentication";
+    document.title = "MLH INIT Challenges";
     document.head.lang = "en";
     authContext.loadUser();
     // eslint-disable-next-line
