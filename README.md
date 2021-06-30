@@ -21,5 +21,6 @@ Sorting Project - https://devpost.com/software/code-to-sort-a-list-4otzi0 || htt
 ### **Day 3:**
 
 Animation - https://mlh-init-pu.netlify.app/animation
+
 Two APIs - https://devpost.com/software/connecting-two-apis-srac8w || https://mlh-init-weather.herokuapp.com/
 
